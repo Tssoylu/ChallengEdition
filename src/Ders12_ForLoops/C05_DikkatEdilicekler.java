@@ -1,0 +1,49 @@
+package Ders12_ForLoops;
+
+public class C05_DikkatEdilicekler {
+    public static void main(String[] args) {
+
+        /*
+       Sonsuz loop
+
+        for (int i = 0; i >-10 ; i++) {
+            System.out.println(i + " ");
+            
+        }
+
+         */
+
+        // ilk deger icin bitis sarti true olmuyorsa
+        // for body'si hic devreye girmez
+        for (int i = 0; i >10 ; i++) {
+
+            System.out.println(i);
+            
+        }
+
+        // bir loop'u sonunu beklemeden bitirmek istersek
+
+        // kullanici'nin verdigi bir sayinin asal sayi olup olmadigini bulun
+        // asal sayi: bir ve kendisi disinda hicbir sayiya bolunmeyen sayi
+
+        int sayi= 5300;
+        boolean bayrak=false;
+
+        for (int i = 2; i <=sayi-1 ; i++) {
+
+            if (sayi % i==0){
+                // askimiz bitti
+                bayrak=true;
+                break;
+            }
+        }
+
+        System.out.println(bayrak);
+
+        if (bayrak){
+            System.out.println("asal sayi");
+        }else {
+            System.out.println("asal sayi degil");
+        }
+    }
+}

@@ -1,4 +1,4 @@
-package Ders04_matematiselislemler_İncrementDecrement;
+package Ders04_Matematikselislemler_İncrementDecrement;
 
 public class C06_Pre_Post_Increment {
     public static void main(String[] args) {

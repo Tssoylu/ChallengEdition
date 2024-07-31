@@ -26,7 +26,7 @@ public class C02_IfElseIfStatements {
             toplamFiyat = urunAdedi * listeFiyati * (0.85);
             System.out.println("%15 indirimli toplam fiyat : " + toplamFiyat);
         } else if (!kartVarMi && urunAdedi < 10) {
-            toplamFiyat = urunAdedi * listeFiyati * (0.85);
+            toplamFiyat = urunAdedi * listeFiyati * (0.90);
             System.out.println("%10 indirimli toplam fiyat : " + toplamFiyat);
         } else {
             System.out.println("gecersiz giris");

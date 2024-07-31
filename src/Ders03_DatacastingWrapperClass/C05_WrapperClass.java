@@ -1,4 +1,4 @@
-package Ders03_datacastingWrapperClass;
+package Ders03_DatacastingWrapperClass;
 
 public class C05_WrapperClass {
 
