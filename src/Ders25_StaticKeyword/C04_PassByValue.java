@@ -7,6 +7,8 @@ public class C04_PassByValue {
         double fiyat = 100;
 
         System.out.println(indirimuygule(fiyat)); // 90
+        System.out.println(indirimuygule(fiyat)); // 90
+        System.out.println(indirimuygule(fiyat)); // 90
 
         System.out.println(fiyat); // 100
     }
