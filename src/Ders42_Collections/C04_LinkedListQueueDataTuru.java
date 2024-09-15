@@ -54,6 +54,6 @@ public class C04_LinkedListQueueDataTuru {
         System.out.println("peek : " + q1.peek()); // null
         // System.out.println("element : " + q1.element()); // NoSuchElementException
 
-        
+
     }
 }
