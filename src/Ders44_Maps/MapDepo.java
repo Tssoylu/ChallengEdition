@@ -54,7 +54,7 @@ public class MapDepo {
                                              istenenKeyValueArr[2]+"-"+
                                              istenenKeyValueArr[3]+"-"+
                                              istenenKeyValueArr[4];
-            ogrenciMap.put(ogrenciKey,istenenKeyinValuesu);
+            ogrenciMap.put(ogrenciKey,istenenKeyinYeniValuesu);
 
         }
             return ogrenciMap;

@@ -36,10 +36,11 @@ public class C02_Maps {
         // Method'da istenen Key map'de varsa degistirip map'i geri dondurelim
         // yoksa hicbir islem yapmadan map'i geri dondurelim
 
-        int ogrenciKey=108;
-        String yeniSube="J";
+        int ogrenciKey=105;
+        String yeniSube="N";
         ogrenciMap = MapDepo.ogrenciyeYeniSubeAta(ogrenciMap,ogrenciKey,yeniSube);
         System.out.println(ogrenciMap);
+
 
     }
 }
